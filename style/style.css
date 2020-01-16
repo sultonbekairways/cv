@@ -10,12 +10,13 @@
     --green: #046729;
     --green_shadow: #378956;
     --dark: #1f2020;
+    --blue-bg: #008e8f;
     --gray_bg: #bcbcbc;
     --gray: #282929;
     --yellow: #ffcb02;
     --yellow_dark: #d2a90b;
     --cyan: #28fcfd;
-    --linear: linear-gradient(133deg, var(--green), var(--yellow));
+    --linear: linear-gradient(133deg, var(--cyan), var(--yellow));
 
     
     --green_hover-nav: #2e9355;
@@ -53,7 +54,7 @@ a:hover {
 }
 
 .title {
-    background: var(--green_shadow);
+    background: var(--blue-bg);
 }
 
 .title::before,
@@ -61,7 +62,7 @@ a:hover {
     content: '';
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background: var(--cyan);
 }
 
@@ -208,9 +209,9 @@ a:hover {
 }
 
 .main__tabs-link {
-    background: var(--green_hover-nav);
+    background: var(--blue-bg);
     font-size: 16px;
-    color: var(--dark);
+    color: var(--cyan);
     text-transform: uppercase;
     display: block;
     padding: 13px 29px;
@@ -218,11 +219,12 @@ a:hover {
     line-height: 12px;
     margin-bottom: 20px;
     transition: 0.5s;
+    border: 2px solid var(--yellow);
 }
 
 .main__tabs-link.active {
     background: var(--dark);
-    color: var(--white);
+    color: var(--yellow);
 }
 
 .main__tabs-link:hover {
@@ -283,7 +285,7 @@ a:hover {
 
 .main__accordion-button {
     color: var(--white);
-    background: var(--green_shadow);
+    background: var(--blue-bg);
     border: none;
     font-family: var(--f700);
     text-transform: uppercase;
@@ -336,7 +338,7 @@ a:hover {
     content: '';
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background: var(--cyan);
 }
 
