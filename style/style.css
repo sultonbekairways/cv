@@ -14,7 +14,6 @@
     --gray_bg: #bcbcbc;
     --gray: #282929;
     --yellow: #ffcb02;
-    --yellow_dark: #d2a90b;
     --cyan: #28fcfd;
     --linear: linear-gradient(133deg, var(--cyan), var(--yellow));
 
@@ -46,7 +45,7 @@ a:hover {
 }
 
 .logo:hover {
-    color: var(--green_shadow);
+    color: var(--cyan);
 }
 
 .logo__text {
@@ -173,7 +172,7 @@ a:hover {
 }
 
 .main__slider-extra {
-    color: var(--yellow_dark);
+    color: var(--yellow);
 }
 
 .main__slider-description {
@@ -250,7 +249,7 @@ a:hover {
 }
 
 .main__tabs-title {
-    color: var(--yellow_dark);
+    color: var(--yellow);
     font-family: var(--ps400);
     font-size: 24px;
 }
@@ -294,7 +293,7 @@ a:hover {
 }
 
 .main__accordion-button:not(.collapsed) {
-    background: var(--yellow_dark);
+    background: var(--yellow);
     color: var(--dark);
 }
 
@@ -312,7 +311,7 @@ a:hover {
     text-align: justify;
     font-size: 18px;
     line-height: 24px;
-    border: 1px solid var(--yellow_dark);
+    border: 1px solid var(--yellow);
     background: var(--dark);
     padding: 20px 14px 0 14px;
 }
