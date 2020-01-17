@@ -131,11 +131,15 @@ a:hover {
 .header__text {
     font-family: var(--ps400);
     background: url(../images/header_img-bg.JPG) no-repeat center center /cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-attachment: fixed;
     color: var(--white);
     padding: 100px 0 25px 0;
     object-fit: 1;
 }
+
 
 .header__text-title {
     font-size: 60px;
@@ -176,7 +180,7 @@ a:hover {
 }
 
 .main__slider-description {
-    color: var(--dark);
+    color: var(--white);
     font-size: 18px;
     line-height: 24px;
     text-align: justify;
