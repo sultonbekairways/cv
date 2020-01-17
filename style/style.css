@@ -17,10 +17,10 @@
     --cyan: #28fcfd;
     --linear: linear-gradient(133deg, var(--cyan), var(--yellow));
 
-    
+
     --green_hover-nav: #2e9355;
-    
-    
+
+
     --black_heading: #1d1d1d;
     --black_text: #191919;
 }
@@ -131,15 +131,10 @@ a:hover {
 .header__text {
     font-family: var(--ps400);
     background: url(../images/header_img-bg.JPG) no-repeat center center /cover;
-    background-attachment: fixed;
     color: var(--white);
     padding: 100px 0 25px 0;
     object-fit: 1;
 }
-
-body.mobile-fix .header__text.background-image-fixed {
-    background-attachment: scroll !important;
-    }
 
 .header__text-title {
     font-size: 60px;
