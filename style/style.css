@@ -182,6 +182,15 @@ a:hover {
     margin-bottom: 0;
 }
 
+.main__slider-deviders::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--white);
+    margin: 7px 0;
+}
+
 .main__slider-text {
     background: var(--dark);
     padding: 15px;
