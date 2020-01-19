@@ -137,14 +137,10 @@ a:hover {
 }
 
 .header__text-title {
-    font-size: 60px;
+    font-size: 65px;
     line-height: 45px;
+    margin-left: 35px;
     margin-bottom: 50px;
-}
-
-.header__text-description {
-    font-size: 22px;
-    line-height: 27px;
 }
 
 /* HEADER end */
@@ -433,10 +429,6 @@ a:hover {
 @media (max-width: 575px) {
     .logo {
         font-size: 20px;
-    }
-
-    .header__text-description {
-        text-align: center !important;
     }
 
     .footer__nav-link,
