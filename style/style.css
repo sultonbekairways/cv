@@ -91,7 +91,6 @@ a:hover {
 .title__description {
     color: var(--white);
     font-size: 18px;
-    text-align: justify;
     line-height: 24px;
     margin-bottom: 30px;
 }
@@ -312,7 +311,6 @@ a:hover {
 
 .main__accordion-body {
     color: var(--white);
-    text-align: justify;
     font-size: 18px;
     line-height: 24px;
     border: 1px solid var(--yellow);
@@ -411,8 +409,10 @@ a:hover {
 @media (max-width: 767px) {
     .header__nav-link {
         margin-left: 0;
+        margin-right: 5px;
         margin-top: 7px;
         display: block;
+        text-align: end;
     }
 
     .header__text-title {
