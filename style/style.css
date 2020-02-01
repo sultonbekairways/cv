@@ -149,6 +149,7 @@ a:hover {
 .main__slider {
     background: url(../images/bg_main.jpg) no-repeat center center /cover;
     padding: 15px 0;
+    height: 350px;
 }
 
 .main__slider-img {
@@ -315,7 +316,7 @@ a:hover {
     line-height: 24px;
     border: 1px solid var(--yellow);
     background: var(--dark);
-    padding: 20px 14px 0 14px;
+    padding: 10px 14px 10px 14px;
 }
 
 .main__accordion-item {
@@ -391,12 +392,19 @@ a:hover {
 /* FOOTER end */
 
 /* MEDIA start */
+@media (max-width: 1200px) {
+    .main__slider {
+        height: 435px;
+    }
+}
 
 @media (max-width: 992px) {
     .header__nav-link {
         margin-left: 30px;
     }
-
+    .main__slider {
+        height: 600px;
+    }
     .main__slider-img {
         height: 50vh !important;
     }
