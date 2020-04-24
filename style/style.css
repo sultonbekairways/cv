@@ -16,11 +16,7 @@
     --yellow: #ffcb02;
     --cyan: #28fcfd;
     --linear: linear-gradient(133deg, var(--cyan), var(--yellow));
-
-
     --green_hover-nav: #2e9355;
-
-
     --black_heading: #1d1d1d;
     --black_text: #191919;
 }
@@ -93,6 +89,7 @@ a:hover {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 /* ROOT end */
