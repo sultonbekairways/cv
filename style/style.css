@@ -406,6 +406,10 @@ a:hover {
     .main__slider-text {
         margin-top: 20px;
     }
+
+    .main__slider-title {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -419,6 +423,10 @@ a:hover {
 
     .header__text-title {
         font-size: 45px;
+        text-align: center;
+    }
+
+    .title__description, .main__slider-description {
         text-align: center;
     }
 
