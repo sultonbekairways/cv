@@ -126,10 +126,51 @@ a:hover {
 
 .header__text {
     font-family: var(--ps400);
-    background: url(../images/header_img-bg.JPG) no-repeat center center /cover;
+    background: url(../images/bg_main.jpg) no-repeat center /cover;
+    background-color: black;
     color: var(--white);
     padding: 100px 0 25px 0;
     object-fit: 1;
+}
+
+.header__img {
+    border-radius: 50%;
+    max-width: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #80fcfcde;
+}
+
+@keyframes blink {
+    0% {
+        box-shadow: 0 0 60px #80fcfc;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 0 0 60px #80fcfc;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        box-shadow: 0 0 60px #80fcfc;
+    }
+    50% {
+        box-shadow: 0 0 0;
+    }
+    100% {
+        box-shadow: 0 0 60px #80fcfc;
+    }
+}
+.blink {
+    -webkit-animation: blink 1.0s linear infinite;
+    -moz-animation: blink 1.0s linear infinite;
+    -ms-animation: blink 1.0s linear infinite;
+    -o-animation: blink 1.0s linear infinite;
+    animation: blink 1.0s linear infinite;
 }
 
 .header__text-title {
@@ -446,6 +487,13 @@ a:hover {
         margin: 10px 0 0;
         display: block;
         text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__text-title {
+        margin: 5px ;
+        font-size: 28px;
     }
 }
 

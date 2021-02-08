@@ -52,6 +52,7 @@
 
     <div class="header__text flex-grow-1 d-flex flex-column justify-content-end">
       <div class="container">
+        <img class="header__img blink" src="images/header-img.jpg" alt="">
         <h1 class="header__text-title text-uppercase text-center">портфолио</h1>
       </div>
     </div>
@@ -114,10 +115,10 @@
                   </div>
                   <section class="main__slider-text col-12 col-lg-6 col-xl-8">
                     <h3 class="main__slider-title">
-                      <span class="main__slider-extra">обучение в </span>PROWEB
+                      <span class="main__slider-extra">Преподование в </span>PROWEB
                     </h3>
                     <p class="main__slider-description">
-                      Работаю более год как Front-end разработчик и преподователь в школе PROWEB.
+                      Работаю болше года как Front-end разработчик и преподователь в школе PROWEB.
                     </p>
                   </section>
                 </div>
@@ -133,7 +134,7 @@
                       <span class="main__slider-extra">университет </span>tuit
                     </h3>
                     <p class="main__slider-description">Обучаюсь на 3-ом курсе в университете Информационных Технологий
-                      в Ташкенте. Факультет программного инженеринга (очная обучение).</p>
+                      в Ташкенте. Факультет программного инженеринга (очное обучение).</p>
                   </section>
                 </div>
               </div>
@@ -177,8 +178,15 @@
                 <a href="#food" class="main__tabs-link " data-toggle="tab">Food100</a>
               </li>
               <li class="nav-item">
+                <a href="#cinema" class="main__tabs-link " data-toggle="tab">Cinema</a>
+              </li>
+              <li class="nav-item">
+                <a href="#tourist" class="main__tabs-link " data-toggle="tab">Tourist</a>
+              </li>
+              <li class="nav-item">
                 <a href="#todoList" class="main__tabs-link " data-toggle="tab">TodoList</a>
               </li>
+
               <li class="nav-item">
                 <a href="#macintosh" class="main__tabs-link " data-toggle="tab">macintosh</a>
               </li>
@@ -216,7 +224,8 @@
                 <div class="main__tabs-info d-flex flex-column justify-content-between">
                   <div>
                     <h3 class="main__tabs-title">Собственный проект на Node.js</h3>
-                    <p class="main__tabs-description">Изучаю Back-end. Решил создать свой магазин курсов. Проект уже рабочий можно опробовать, пока что нет транзакций.</p>
+                    <p class="main__tabs-description">Изучаю Back-end. Решил создать свой магазин курсов. Проект уже
+                      рабочий можно опробовать, пока что нет транзакций.</p>
                   </div>
                   <a href="https://cryptic-wildwood-14346.herokuapp.com/" class="main__tabs-button">подробнее</a>
                 </div>
@@ -237,6 +246,42 @@
                     <p class="main__tabs-description">Один из моих начальных разработок на javascript</p>
                   </div>
                   <a href="https://sultonbekairways.github.io/FOOD100/" class="main__tabs-button">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade " id="cinema" role="tabpanel">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-6">
+                <img src="images/vuecinema.jpg" alt="" class="main__tabs-img w-100 h-100">
+              </div>
+              <div class="col-11 col-md-6">
+                <div class="main__tabs-info d-flex flex-column justify-content-between">
+                  <div>
+                    <h3 class="main__tabs-title">Cinema</h3>
+                    <p class="main__tabs-description">Проект сделанный на GULP,PUG,SCSS,JS</p>
+                  </div>
+                  <a href="https://sultonbekairways.github.io/cinema/" class="main__tabs-button">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade " id="tourist" role="tabpanel">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-6">
+                <img src="images/tourist.jpg" alt="" class="main__tabs-img w-100 h-100">
+              </div>
+              <div class="col-11 col-md-6">
+                <div class="main__tabs-info d-flex flex-column justify-content-between">
+                  <div>
+                    <h3 class="main__tabs-title">Tourist</h3>
+                    <p class="main__tabs-description">Проект сделанный на VueJs(Vue-router,Vuex)</p>
+                  </div>
+                  <a href="https://sultonbekairways.github.io/tourist/" class="main__tabs-button">подробнее</a>
                 </div>
               </div>
             </div>
@@ -305,7 +350,7 @@
                 </div>
                 <div class="collapse show" id="html" data-parent="#ability">
                   <div class="main__accordion-body">Тут в принцепе ничего сложного, работаю с ним без каких либо
-                    сложностей. Применяю Бем метадалогию.</div>
+                    сложностей. </div>
                 </div>
               </div>
               <div class="main__accordion-item">
@@ -317,7 +362,7 @@
                 </div>
                 <div class="collapse" id="css" data-parent="#ability">
                   <div class="main__accordion-body ">Обожаю возиться с ним и много люблю эксперементировать. Также,
-                    работал с scss .</div>
+                    работал с scss. Применяю Бем метадалогию.</div>
                 </div>
               </div>
               <div class="main__accordion-item">
@@ -347,7 +392,7 @@
                 <div class="main__accordion-header">
                   <button type="button" class="main__accordion-button d-flex align-items-center w-100 collapsed"
                     data-toggle="collapse" data-target="#git">
-                    <span class="fab fa-git-alt main__accordion-icon"></span>GIT, AGILE, SCRUM</button>
+                    <span class="fab fa-git-alt main__accordion-icon"></span>GIT AGILE</button>
                 </div>
                 <div class="collapse" id="git" data-parent="#ability">
                   <div class="main__accordion-body ">Имею понятие как работают инженеры над проектом, так что с могу
@@ -359,8 +404,8 @@
                 <div class="main__accordion-header">
                   <button type="button" class="main__accordion-button d-flex align-items-center w-100 collapsed"
                     data-toggle="collapse" data-target="#design">
-                    <span class="fab fa-adobe main__accordion-icon"></span>PHOTOSHOP, &nbsp; <span
-                      class="fab fa-figma main__accordion-icon"></span> FIGMA</button>
+                    <span class="fab fa-adobe main__accordion-icon"></span>PS &nbsp; <span
+                      class="fab fa-figma main__accordion-icon"></span> FIG</button>
                 </div>
                 <div class="collapse" id="design" data-parent="#ability">
                   <div class="main__accordion-body ">Долгое время верстаю макеты с помощью этих программ</div>
@@ -370,12 +415,31 @@
                 <div class="main__accordion-header">
                   <button type="button" class="main__accordion-button d-flex align-items-center w-100 collapsed"
                     data-toggle="collapse" data-target="#study">
-                    <span class="fab fa-vuejs main__accordion-icon"></span>Vue.js, &nbsp; <span
-                      class="fab fa-node-js main__accordion-icon"></span> Node.js</button>
+                    <span class="fab fa-vuejs main__accordion-icon"></span>Vue</button>
                 </div>
                 <div class="collapse" id="study" data-parent="#ability">
-                  <div class="main__accordion-body ">На стадии обучения. На верху есть работа выполненная на чистом
-                    Node.js</div>
+                  <div class="main__accordion-body ">Пробовал пороботать с ним. На верху есть работа(Tourist) выполненная с помощью Vue Vue-router VueX</div>
+                </div>
+              </div>
+              <div class="main__accordion-item">
+                <div class="main__accordion-header">
+                  <button type="button" class="main__accordion-button d-flex align-items-center w-100 collapsed"
+                    data-toggle="collapse" data-target="#react">
+                    <i class="fab fa-react main__accordion-icon"></i> React</button>
+                </div>
+                <div class="collapse" id="react" data-parent="#ability">
+                  <div class="main__accordion-body ">На стадии обучения. На данный момент понял концепции компонентов пропсов и стейтов и поднятия стейтов на уровень.</div>
+                </div>
+              </div>
+              <div class="main__accordion-item">
+                <div class="main__accordion-header">
+                  <button type="button" class="main__accordion-button d-flex align-items-center w-100 collapsed"
+                    data-toggle="collapse" data-target="#node">
+                    <span class="fab fa-node-js main__accordion-icon"></span> Node</button>
+                </div>
+                <div class="collapse" id="node" data-parent="#ability">
+                  <div class="main__accordion-body ">На стадии обучения. На верху есть работа(Courses) выполненная на
+                    Node.js + Express</div>
                 </div>
               </div>
             </div>
